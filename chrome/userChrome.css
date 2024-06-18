@@ -139,7 +139,12 @@
     border-radius: 2px !important;
   }
   .tab-content[pinned] {
-    padding: 7px !important;
+    padding: 8px !important;
+  }
+  .tab-text[pinned] {
+    max-width: calc(100% - 10px);
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   
   /* ? Popup menus */
