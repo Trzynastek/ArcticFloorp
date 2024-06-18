@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.pip-wrapper[position='top'] {
+	top: 20px !important;
+	left: 20px !important;
+}
+* {
+	scrollbar-width: none;
+}

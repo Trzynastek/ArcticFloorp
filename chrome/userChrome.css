@@ -1,0 +1,341 @@
+@charset "UTF-8";
+@-moz-document url(chrome://browser/content/browser.xhtml)
+{
+  :root {
+    --toolbarbutton-hover-background: #ffffff5f !important;
+  }
+  
+  /* ? Titlebar */
+  #nav-bar {
+    border: 0px;
+    display: flex;
+    align-items: center;
+    padding: 10px 5px !important;
+  }
+  #navigator-toolbox {
+    display: flex;
+    justify-content: center;
+    border-top: 0px !important;
+    min-height: 0px !important;
+    background-color: var(--toolbar-bgcolor) !important;
+    min-height: 16px !important;
+  }
+  #QRCodeGeneratePageAction {
+    display: none !important;
+  }
+  #page-action-buttons > .urlbar-page-action {
+    margin-inline-end: 0px !important;
+  }
+  #sidebar-button {
+    padding-inline-start: 0px !important;
+  }
+  .titlebar-button {
+    padding: 0px;
+    width: 32px !important;
+    height: 32px;
+    background-color: transparent !important;
+    margin: 0 2px !important;
+    border-radius: 5px;
+  }
+  .titlebar-close {
+    margin-right: 5px !important;
+  }
+  .titlebar-color {
+    background-color: transparent !important;
+  }
+  #PanelUI-menu-button {
+    margin: 0 2px 0 0 !important;
+    padding: 0 !important;
+  }
+  #nav-bar-overflow-button {
+    display: none !important;
+  }
+  #back-button {
+    padding-left: 0px !important;
+  }
+  .titlebar-button:hover {
+    background-color: #ffffff5f !important;
+  }
+  .toolbarbutton-badge-stack:hover {
+    background-color: #d9d9d9 !important;
+  }
+  .toolbarbutton-1:hover {
+    fill: #202020 !important;
+  }
+  #nav-bar:not([customizing]) {
+    margin-top: -100px !important;
+    margin-bottom: 0px !important;
+    transition: margin-top 1s 1s ease,
+      opacity 1s 1s ease !important;
+  }
+  #navigator-toolbox:is(:hover, :focus-within) #nav-bar:not([customizing]):not(:has(#unified-extensions-button:hover, #unified-extensions-button:focus)) {
+    margin-top: 0px !important;
+    transition: margin-top 200ms 0s ease, opacity 200ms 0s ease !important;
+  }
+  
+  /* ? Sidebar */
+  #new-tab-button {
+    display: none !important;
+  }
+  .scrollbox-clip {
+    background-color: var(--toolbar-bgcolor) !important;
+    border-radius: 0 5px 5px 0;
+    margin-bottom: 5px !important;
+  }
+  #tabbrowser-tabs {
+    margin: 0 !important;
+    border: 0 !important;
+    position: relative;
+  }
+  #tabbrowser-arrowscrollbox {
+    background-color: transparent !important;
+  }
+  
+  /* ? Tabs */
+  .tab-background[selected="true"] {
+    background: #ffffff1f !important;
+  }
+  .tab-background {
+    border-radius: 5px !important;
+    margin: 5px !important;
+    padding-right: 36px;
+  }
+  .tab-icon-stack {
+    margin-left: 4px !important;
+  }
+  .tab-context-line {
+    display: none !important;
+  }
+  #tabs-newtab-button {
+    border-radius: 5px !important;
+  }
+  .tabbrowser-tab[splitView="true"]::before {
+    width: 4px !important;
+    margin-left: -5px !important;
+    margin-top: 5px !important;
+    height: 35px !important;
+    border-radius: 2px;
+    background-color: #d9d9d9 !important;
+    position: absolute !important;
+  }
+  .tab-close-button {
+    margin-right: 5px !important;
+  }
+  .tabbrowser-tab[splitView="true"] {
+    margin-left: 9px !important;
+  }
+  .tabbrowser-tab[splitView="true"] .tab-background {
+    padding: 0 !important;
+  }
+  .tabbrowser-tab[splitView="true"] .tab-content {
+    padding: 3px !important;
+  }
+  #tabbrowser-tabbox[flex], #tabbrowser-tabpanels, browser[type="content-primary"], browser[type="content"] > html{
+    clip-path: inset(0px 0px 0px round 10px 0) !important;
+  }
+  .tab-content::before {
+    width: calc(100% - 33px) !important;
+    border-bottom: 3px solid var(--identity-icon-color) !important;
+    border-radius: 2px !important;
+  }
+  
+  /* ? Popup menus */
+  .menupopup-arrowscrollbox {
+    background-color: var(--toolbar-bgcolor) !important;
+    padding: 5px !important;
+    border: 0px !important;
+    border-radius: 10px !important;
+    padding-bottom: 0px !important;
+  }
+  menuseparator {
+    display: none !important;
+  }
+  menuitem,
+  .menu-iconic-icon {
+    cursor: pointer;
+    border-radius: 5px !important;
+  }
+  #ublock0_raymondhill_net-menuitem-_uBlock0-blockElement,
+  #context-inspect-a11y,
+  #context-take-screenshot,
+  #context-pocket,
+  #context-openlinkprivate,
+  #context-bookmarklink,
+  #context-savelinktopocket,
+  #context-savelink,
+  #context-openlinkinusercontext-menu,
+  #languagetool-webextension_languagetool_org-menuitem-_languagetool-menu,
+  #context-print-selection,
+  #bsb-context-link-add,
+  #context-searchselect-private{
+      display: none !important;
+  }
+  
+  /* ? History panel */
+  #sidebar-box {
+    width: 40vw !important;
+  }
+
+  /* ? Extensions view */
+  #unified-extensions-view .panel-header {
+    display: none !important;
+  }
+  toolbarseparator {
+    display: none !important;
+  }
+  .unified-extensions-item-contents {
+    display: none !important;
+  }
+  #unified-extensions-view .unified-extensions-item {
+    width: 28px !important;
+    height: 28px !important;
+  }
+  #unified-extensions-view .unified-extensions-item image {
+    width: 18px !important;
+    height: 18px !important;
+  }
+  #unified-extensions-view .toolbarbutton-badge {
+    display: none !important;
+  }
+  .unified-extensions-item-menu-button {
+    display: none !important;
+  }
+  .unified-extensions-list {
+    display: none !important;
+  }
+  #unified-extensions-manage-extensions {
+    display: none !important;
+  }
+  #unified-extensions-area {
+    display: grid !important;
+    grid-template-columns: repeat(3, 37px);
+  }
+  #unified-extensions-view {
+    width: 120px !important;
+    padding: 5px 0 !important;
+  }
+  
+  /* ? findbar */
+  findbar {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 100;
+    width: 540px;
+    height: auto;
+    border-radius: 10px;
+    background: var(--toolbar-bgcolor);
+  }
+  
+  /* ? Rounded pages */
+  #browser {
+    background-color: var(--toolbar-bgcolor) !important;
+    padding: 0 5px 5px 0;
+  }
+  :root[sizemode="fullscreen"] #browser {
+    padding: 5px;
+  }
+  :root[inDOMFullscreen="true"] #browser {
+    padding: 0;
+  }
+  .browserStack > * {
+    border: 0px !important;
+    border-radius: 10px !important;
+  }
+  .browserContainer {
+    border-left: 0px !important;
+    border-radius: 10px !important;
+  }
+  
+  /* ? Splitview */
+  #splitview-splitter {
+    min-width: 5px !important;
+    border-radius: 3px !important;
+    margin-bottom: 5px !important;
+    opacity: 0;
+  }
+  
+  /* ? Fullscreen popups */
+  #fullscreen-warning {
+    background-color: var(--toolbar-bgcolor) !important;
+    border: 0px !important;
+    border-radius: 10px !important;
+    padding: 10px !important;
+  }
+  #fullscreen-exit-button {
+    display: none !important;
+  }
+  #pointerlock-warning {
+    display: none !important;
+  }
+  
+  /* ? Urlbar */
+  #urlbar-container {
+    height: 28px !important;
+    max-width: 35vw !important;
+    margin: 0 auto !important;
+  }
+  #urlbar {
+    width: 35vw !important;
+    top: 0px !important;
+    min-height: 32px !important;
+  }
+  #urlbar-input-container {
+    padding: 0 !important;
+    height: 32px !important;
+    text-align: center !important;
+  }
+  #urlbar[breakout][breakout-extend] {
+    position: fixed !important;
+    top: 20vh !important;
+    left: 50% !important;
+    transform: translateX(-50%);
+    width: 50vw !important;
+  }
+  #urlbar[breakout][breakout-extend] #urlbar-background {
+    border: 0px !important;
+    border-radius: 10px !important;
+    background-color: var(--toolbar-bgcolor) !important;
+  }
+  #urlbar:hover:not([focused="true"]) > #urlbar-background, #searchbar:hover:not(:focus-within) {
+    --toolbar-field-border-color: transparent !important;
+  }
+  .urlbarView-body-inner {
+    border: 0px !important;
+  }
+  .urlbarView-url {
+    color: #ffffff5f !important;
+  }
+  
+  /* ? Extension button */
+  :root:not([sizemode="fullscreen"], [inDOMFullscreen="true"]) #unified-extensions-button {
+    position: fixed !important;
+    bottom: 5px !important;
+    left: 5px !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    z-index: 1000;
+    padding: 0 !important;
+  }
+  :root:not([sizemode="fullscreen"], [inDOMFullscreen="true"]) #unified-extensions-panel {
+    padding-bottom: 10px !important;
+  }
+  :root[sizemode="fullscreen"] #unified-extensions-panel {
+    padding-top: 10px !important;
+  }
+  
+  /* ? Other */
+  #sidebar-button {
+    display: none !important;
+  }
+  #statuspanel-label {
+    margin: 10px !important;
+    border-radius: 5px !important;
+    padding: 5px !important;
+    border: none !important;
+  }
+  #unified-extensions-button {
+    margin-right: 2px !important;
+  }
+  
+}
