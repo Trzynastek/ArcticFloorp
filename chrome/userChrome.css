@@ -235,7 +235,7 @@
     width: 540px;
     height: auto;
     border-radius: 10px;
-    background: var(--toolbar-bgcolor);
+    background: var(--toolbar-bgcolor) !important;
   }
   
   /* ? Rounded pages */
