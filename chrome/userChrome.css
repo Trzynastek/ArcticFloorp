@@ -146,6 +146,9 @@
     overflow: hidden;
     text-overflow: ellipsis;
   }
+  .tab-stack::after {
+    display: none !important;
+  }
   
   /* ? Popup menus */
   .menupopup-arrowscrollbox {
