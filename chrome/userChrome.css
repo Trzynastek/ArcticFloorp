@@ -138,6 +138,9 @@
     border-bottom: 3px solid var(--identity-icon-color) !important;
     border-radius: 2px !important;
   }
+  .tab-content[pinned] {
+    padding: 7px !important;
+  }
   
   /* ? Popup menus */
   .menupopup-arrowscrollbox {
