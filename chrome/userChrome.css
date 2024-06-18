@@ -225,6 +225,16 @@
     width: 120px !important;
     padding: 5px 0 !important;
   }
+  #customizationui-widget-panel {
+    --arrowpanel-background: transparent !important;
+    margin: 10px 0 !important;
+  }
+  #notification-popup {
+    margin: 10px 0 !important;
+  }
+  .popup-notification-panel {
+    margin: 10px 0 !important;
+  }
   
   /* ? findbar */
   findbar {
