@@ -358,5 +358,7 @@
   #unified-extensions-button {
     margin-right: 2px !important;
   }
-  
+  #_174b2d58-b983-4501-ab4b-07e71203cb43_-menuitem-_dark-mode-contextmenu {
+    display: none !important;
+  }
 }
