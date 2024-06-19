@@ -149,6 +149,9 @@
   .tab-stack::after {
     display: none !important;
   }
+  #tabbrowser-arrowscrollbox {
+    scrollbar-width: none !important;
+  }
   
   /* ? Popup menus */
   .menupopup-arrowscrollbox {
