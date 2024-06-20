@@ -3,7 +3,7 @@
 
 ## Screenshots
 
-> Extension used for the homepage is PixelPage 2.0 made by me, as of now it is not public.
+> Extension used for the homepage is [PixelPage 2.0](https://github.com/Trzynastek/PixelPage2.0).
 
 <div align="center">
 	<img src="assets/Normal.PNG" width="400">
