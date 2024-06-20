@@ -1,5 +1,19 @@
 ### Arctic Floorp is a Theme for the [Floorp](https://floorp.app/en) browser, inspired by the Arc browser.
 
+
+## Screenshots
+
+> Extension used for the homepage is PixelPage 2.0 made by me, as of now it is not public.
+
+<div align="center">
+	<img src="assets/Normal.PNG" width="400">
+	<img src="assets/Toolbar-hovered.PNG" width="400">
+	<img src="assets/Tabbar-hovered.PNG" width="400">
+	<img src="assets/Splitscreen.PNG" width="400">
+	<img src="assets/Search.PNG" width="400">
+</div>
+
+
 ## Installing
 
 > **To make the process easier DO NOT restart the browser untill the end.**
