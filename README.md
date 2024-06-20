@@ -64,8 +64,10 @@
 
 18. Press "Done".
 19. Press "CTRL + SHIFT + B".
-20. Download the [Firefox Color](https://addons.mozilla.org/en-US/firefox/addon/firefox-color/) extension.
-21. In the Firefox Color configurator set the following HEX colors: 
+20. Go to browser settings > Search.
+21. Uncheck every option under "Search Shortcuts".
+22. Download the [Firefox Color](https://addons.mozilla.org/en-US/firefox/addon/firefox-color/) extension.
+23. In the Firefox Color configurator set the following HEX colors: 
 
 	    Toolbar Color: 151515, 
 	    Background Color: D9D9D9, 
@@ -77,8 +79,8 @@
 	    Search Text: D9D9D9, 
 	    Popup Background: 151515.
 
-22. Save the theme.
-23. Restart the browser.
+24. Save the theme.
+25. Restart the browser.
 
 I also recommend setting shortcuts for the Split View like this:
 
