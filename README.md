@@ -70,7 +70,7 @@
 23. In the Firefox Color configurator set the following HEX colors: 
 
 	    Toolbar Color: 151515, 
-	    Background Color: D9D9D9, 
+	    Background Color: 151515, 
 	    Search Bar Color: 303030, 
 	    Tab Highlight Color: D9D9D9, 
 	    Popup Text: D9D9D9, 
