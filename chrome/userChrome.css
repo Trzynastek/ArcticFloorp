@@ -187,6 +187,11 @@
   /* ? History panel */
   #sidebar-box {
     width: 40vw !important;
+    background-color: var(--toolbar-bgcolor) !important;
+    border: 0px !important;
+  }
+  #sidebar-splitter {
+    border: none !important;
   }
 
   /* ? Extensions view */
