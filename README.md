@@ -95,7 +95,7 @@
 
 			"media.videocontrols.picture-in-picture.video-toggle.position": "top"
 			"sidebar.position_start": "false"
-		> This setting can reduce performance but fixes an issue where video playing in a split tab can pause. \
+		> This setting can reduce performance but fixes an issue where video playing in a split tab can stop playing. \
  		> "media.suspend-bkgnd-video.enabled": "false"
 
 10. Apply changes
