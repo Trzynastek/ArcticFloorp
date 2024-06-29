@@ -3,6 +3,7 @@
 
 ## Screenshots
 
+> [!NOTE]
 > Extension used for the homepage is [PixelPage 2.0](https://github.com/Trzynastek/PixelPage2.0).
 
 <div align="center">
@@ -16,8 +17,10 @@
 
 ## Installing
 
-> **To make the process easier DO NOT restart the browser until the end.**
+> [!WARNING]
+> **To make the process easier **DO NOT** restart the browser until the end.**
 
+> [!NOTE]
 > **[OPTIONAL]** means that the change is not necessary for the theme to work but is to achieve results shown in the screenshots above.
 > Also, the theme was developed with those settings changed as below so some elements may not be compatible.
 
@@ -95,8 +98,9 @@
 
 			"media.videocontrols.picture-in-picture.video-toggle.position": "top"
 			"sidebar.position_start": "false"
-		> This setting can reduce performance but fixes an issue where video playing in a split tab can stop playing. \
- 		> "media.suspend-bkgnd-video.enabled": "false"
+		> The following setting can reduce performance but fixes an issue where video playing in a split tab can stop playing.
+
+   			"media.suspend-bkgnd-video.enabled": "false"
 
 10. Apply changes
 	- Save the theme.
