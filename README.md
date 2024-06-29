@@ -89,8 +89,16 @@
 	  		Background Tab Text Color: AFAFAF, 
 	  		Search Text: D9D9D9, 
 	  		Popup Background: 151515.
+9. **[OPTIONAL]** `about:config` tweaks.
+	- Go to `about:config`.
+	- Set the following values:
 
-9. Apply changes
+			"media.videocontrols.picture-in-picture.video-toggle.position": "top"
+			"sidebar.position_start": "false"
+		> This setting can reduce performance but fixes an issue where video playing in a split tab can pause. \
+ 		> "media.suspend-bkgnd-video.enabled": "false"
+
+10. Apply changes
 	- Save the theme.
 	- Restart the browser.
 
