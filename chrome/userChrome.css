@@ -15,7 +15,7 @@
   #navigator-toolbox {
     display: flex;
     justify-content: center;
-    border-top: 0px !important;
+    border: 0px !important;
     min-height: 0px !important;
     background-color: var(--toolbar-bgcolor) !important;
     min-height: 16px !important;
