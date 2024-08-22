@@ -157,6 +157,14 @@
   #alltabs-button {
     display: none !important;
   }
+  #tabbrowser-tabpanels[style="flex-direction: column-reverse;"] hbox:first-of-type,
+  #tabbrowser-tabpanels[style="flex-direction: column;"] hbox:first-of-type {
+    margin-bottom: 10px !important;
+  }
+  #tabbrowser-tabpanels[split-view="true"] > [split="true"] {
+    margin-right: 0 !important;
+  }
+  
   
   /* ? Popup menus */
   .menupopup-arrowscrollbox {
