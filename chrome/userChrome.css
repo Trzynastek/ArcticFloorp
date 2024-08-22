@@ -80,6 +80,7 @@
   .scrollbox-clip {
     background-color: var(--toolbar-bgcolor) !important;
     border-radius: 0 5px 5px 0;
+    overflow-x: hidden !important;
   }
   #tabbrowser-tabs {
     margin: 0 !important;
@@ -92,13 +93,14 @@
   }
   
   /* ? Tabs */
-  .tab-background[selected="true"] {
+  .tabbrowser-tab[selected="true"] .tab-background {
     background: #ffffff1f !important;
   }
   .tab-background {
     border-radius: 5px !important;
     margin: 5px !important;
     padding-right: 36px;
+    filter: none !important;
   }
   .tab-icon-stack {
     margin-left: 4px !important;
@@ -151,6 +153,9 @@
   }
   #tabbrowser-arrowscrollbox {
     scrollbar-width: none !important;
+  }
+  #alltabs-button {
+    display: none !important;
   }
   
   /* ? Popup menus */
@@ -325,8 +330,9 @@
     border: 0px !important;
     border-radius: 10px !important;
     background-color: var(--toolbar-bgcolor) !important;
+    margin-top: -8px !important;
   }
-  #urlbar:hover:not([focused="true"]) > #urlbar-background, #searchbar:hover:not(:focus-within) {
+  #urlbar:hover:not([focused="true"]) > #usrlbar-background, #searchbar:hover:not(:focus-within) {
     --toolbar-field-border-color: transparent !important;
   }
   .urlbarView-body-inner {
