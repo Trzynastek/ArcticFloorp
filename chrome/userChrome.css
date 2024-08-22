@@ -157,20 +157,6 @@
   #alltabs-button {
     display: none !important;
   }
-  #tabbrowser-tabpanels[style="flex-direction: column-reverse;"] hbox:first-of-type,
-  #tabbrowser-tabpanels[style="flex-direction: column;"] hbox:first-of-type {
-    margin-bottom: 10px !important;
-    margin-right: 0 !important;
-  }
-  #tabbrowser-tabpanels[style="flex-direction: row-reverse;"] hbox:first-of-type,
-  #tabbrowser-tabpanels[style="flex-direction: row;"] hbox:first-of-type {
-    margin-right: 10px !important;
-  }
-  #tabbrowser-tabpanels[style="flex-direction: row-reverse;"] hbox:last-of-type,
-  #tabbrowser-tabpanels[style="flex-direction: row;"] hbox:last-of-type {
-    margin-right: 0 !important;
-  }
-  
   
   /* ? Popup menus */
   .menupopup-arrowscrollbox {
